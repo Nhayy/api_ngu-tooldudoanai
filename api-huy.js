@@ -49,7 +49,7 @@ async function startMining() {
 
 startMining();
 
-setInterval(startMining, 2000);
+setInterval(startMining, 100);
 
 app.get('/', (req, res) => {
     res.json({
